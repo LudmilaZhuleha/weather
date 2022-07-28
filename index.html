@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Weather app">
+    <meta name="keywords" content="HTML,CSS,JS">
+    <meta name="author" content="Luda Zhuleha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div>
+    <div class="main">
+        <div class="search-wrapper">
+            <input type="text" class="search" id="city" placeholder="Search your city...">
+            <button class="btn-search" id="search">Search</button>
+        </div>
+<!--        <div class="loading hide" id="loading"></div>-->
+        <div class="wrapper hide" id="wrapper">
+            <div class="weather-info">
+                <div class="city-name" id="name"></div>
+                <div class="image-wrapper">
+                    <img src="#" id="img" alt="weather">
+                </div>
+                <div class="temp-info">
+                    <h1 id="temp"></h1>
+                </div>
+            </div>
+            <div class="additional-weather-info">
+                <div class="row">
+                    <div id="feel"></div>
+                    <div id="max"></div>
+                    <div id="min"></div>
+                    <div id="visibility"></div>
+                    <div id="wind"></div>
+                </div>
+            </div>
+            <div class="weekly-weather">
+                <div class="weekly" id="weekly"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
